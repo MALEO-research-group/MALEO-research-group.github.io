@@ -1,3 +1,4 @@
 Makefile
-CNAME
 robots.txt
+.DS_store
+_site

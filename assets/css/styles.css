@@ -103,16 +103,19 @@ ul {
 
 h1 {
   font-size: 2.5rem;
+  color: var(--maleo-violet-light);
 }
 
 h2 {
   font-size: 2.2rem;
   line-height: 3rem;
+  color: var(--maleo-violet-light);
 }
 
 h3 {
   font-size: 1.8rem;
   line-height: 2rem;
+  color: var(--maleo-violet-light);
 }
 
 p {
@@ -145,9 +148,14 @@ p {
   border-radius: 3px;
   padding: 1px 5px;
   color: var(--maleo-violet-light);
+  background-color: #efefef;
   font-weight: bold;
   font-size: 0.8rem;
   text-transform: uppercase;
+}
+
+.posted_by {
+  font-size: 0.8rem;
 }
 
 .highlight {
@@ -162,7 +170,11 @@ p {
   margin-bottom: 0;
 }
 
-#content .highlight a:link {
+#content .highlight a:link,
+#content .highlight a:visited,
+#content .highlight a:active,
+#content .highlight a:focus,
+#content .highlight a:hover {
   color: white;
   border-color: white;
 }
