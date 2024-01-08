@@ -56,7 +56,7 @@ $(document).ready(function() {
 
   // menu icon for mobile design
   $("#menu_icon").on("click", function() {
-    $("#main_nav").slideToggle();
+    $("#main_nav").toggle();
     $(this).toggleClass("active");
   });
 
@@ -66,6 +66,7 @@ $(document).ready(function() {
   name_mapping.set('Bossek, Jakob', 'jbossek');
   name_mapping.set('Preuß, Oliver Ludger', 'opreuss');
   name_mapping.set('Grimme, Britta', 'bgrimme');
+  name_mapping.set('Rook, Jeroen', 'jrook');
 
   $(".publications li span").each(function() {
     for (const [key, value] of name_mapping) {
