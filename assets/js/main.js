@@ -64,7 +64,9 @@ $(document).ready(function() {
   const name_mapping = new Map();
   name_mapping.set('Trautmann, Heike', 'htrautmann');
   name_mapping.set('Bossek, Jakob', 'jbossek');
-  name_mapping.set('Preuß, Oliver Ludger', 'opreuss');
+  name_mapping.set('Preuß, Oliver', 'opreuss');
+  name_mapping.set('Preuss, Oliver', 'opreuss');
+  name_mapping.set('Preuss, Oliver Ludger', 'opreuss');
   name_mapping.set('Grimme, Britta', 'bgrimme');
   name_mapping.set('Rook, Jeroen', 'jrook');
 
