@@ -69,6 +69,8 @@ $(document).ready(function() {
   name_mapping.set('Preuss, Oliver Ludger', 'opreuss');
   name_mapping.set('Grimme, Britta', 'bgrimme');
   name_mapping.set('Rook, Jeroen', 'jrook');
+  name_mapping.set('Skvorc, Urban', 'uskvorc');
+  name_mapping.set('Seiler, Moritz', 'mseiler');
 
   $(".publications li span").each(function() {
     for (const [key, value] of name_mapping) {
