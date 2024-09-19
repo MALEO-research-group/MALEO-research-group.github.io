@@ -573,6 +573,17 @@ a#upb_logo {
   border-bottom: none !important;
 }
 
+.image-container img {
+  float: left;
+  width: 33%; /* Adjust width as necessary */
+  margin-right: 0.5%; /* Adds space between images */
+  margin-bottom: 20px;
+}
+
+.image-container img:last-child {
+  margin-right: 0; /* Removes margin for the last image */
+}
+
 @media (min-width: 1500px) {
   #main_nav {
     display: block !important;
