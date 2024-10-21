@@ -451,12 +451,12 @@ a.link_button:hover {
   margin-bottom: 1rem;
 }
 
-#content #staff {
+#content .staff_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-#staff li {
+.staff_list li {
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 0;
@@ -465,7 +465,7 @@ a.link_button:hover {
   max-width: 100%;
 }
 
-#staff img {
+.staff_list img {
   border-radius: 50%;
   display: block;
   max-width: 200px;
@@ -649,13 +649,13 @@ a#upb_logo {
   #menu_icon.active .third {
     display: none;
   }
-  #staff {
+  .staff_list {
     text-align: center;
   }
-  #staff li {
+  .staff_list li {
     display: block;
   }
-  #staff img {
+  .staff_list img {
     margin: 1rem auto;
   }
 }
